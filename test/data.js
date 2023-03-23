@@ -7,6 +7,4 @@ module.exports = {
     address:'708 W 4th St',
     city: 'Arizona',
     zipCode: '85546',
-    homePageUrl: 'https://www.experian.com/employer-services/'
-    
 }

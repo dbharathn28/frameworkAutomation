@@ -45,11 +45,11 @@ class tccPage {
 
     async submitForm (){
         elementUtil.doClick(await this.btnNext)
-        await browser.pause(3000)
+        await browser.pause(4000)
     }
 
     async VerifyHomePageUrl (){
-       expect(await browser.getUrl()).toContain(data.homePageUrl)
+       expect(await browser.getUrl()).toContain('https://www.experian.com/employer-services/')
     }
 
     open () {

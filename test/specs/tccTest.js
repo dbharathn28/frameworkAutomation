@@ -8,6 +8,7 @@ describe('TCC web page Validation', () => {
     it('Input Basic Info', async () => {
         await tccPage.inputBasicInfo()
     })
+    
     it('Select Yes or No for the asked questions', async () => {
         await tccPage.selectYesOrNo()
     })
